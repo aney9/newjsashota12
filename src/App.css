@@ -1,38 +1,40 @@
-.App {
+body{
+  background-color: gainsboro;
+}
+
+h1{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-style: italic;
+}
+h3{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style:oblique;
+}
+
+.films-list{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-align: left;
+}
+.container {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.btn {
+  border: 3px solid #000;
+  width: 235px;
+  height: 50px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.button {
+  border: 3px solid red;
+  height: 32px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.input{
+  border: 3px solid green;
+  height: 25px;
+  width: 170px;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.horizontal-line {
+  border-top: 1px solid black;
 }
